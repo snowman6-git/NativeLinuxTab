@@ -21,7 +21,8 @@ curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 |---|---|---|:---:|
 |[Arch Linux LXDE Mouse Keyboard on Android Tablet](https://thomaspolasek.blogspot.com/2012/04/arch-linux-lxde-w-xorg-mouse-keyboard_16.html)|April 16, 2012|SD카드를 통한 rootfs형식 리눅스 마운트|*****|
 |[How to Root any Custom ROM via Magisk](https://droidwin.com/how-to-root-any-custom-rom-via-magisk/#Root_any_Custom_ROM_via_Magisk_Patched_Boot)|May 4, 2023|실수로 커롬질해서 TWRP를 못쓰게 됐을시 루팅법|***|
-|[Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/xun-t-oss)|4 year ago|기종별 샤오미 커널 오픈소스 현재 잘 못써서 2점|**|
+|[Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/xun-t-oss)|Feb 4, 2020|기종별 샤오미 커널 오픈소스 현재 잘 못써서 2점|**|
+|[Boot Android from SdCard](https://linux-sunxi.org/Boot_Android_from_SdCard)|Dec 18, 2017|boot.img 부트레코드/파라미터 추출/복제/빌드|?|
 
 #### 왜 Archlinux였는가?
 <li/> AUR, 최신패키지 지원 ex.(neovim 1.10.0)

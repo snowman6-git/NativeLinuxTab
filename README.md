@@ -16,6 +16,12 @@ Real linux on the tablet nativly!
 ```
 curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 ```
+
+유용한 명령어들
+|명령어|용도|
+|-----|---|
+|cat /proc/cmdline|부트이미지를 만들기 위한 파라미터가 있음|
+
 주요 참고 문서
 |게시글|게시일|참고사유|중요도|
 |---|---|---|:---:|

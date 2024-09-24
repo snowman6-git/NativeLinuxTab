@@ -35,8 +35,8 @@ curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 <li/> 리눅스 올라간 태블릿 너무 이쁨.(진짜중요)
 
 ### 밤새다 기절하더라도 잊으면 안돼는것들 -계속 추가할것.
-<li/> tar안에 있는 리눅스 틀 그대로 아무커널에 올려서 sh arch/bin/bash를 사용하면 그때부터 archlinux가 됀다. 이것이 리눅스가 os가 아닌 커널이라 불리우는 이유이다.
-
+<li/> sh가 사용가능한 환경만 되면 언제든지 archlinux가 사용이 가능한 환경이 된다, 이전 글에서는 kernal에 sh가 기본 내장이라는 오류가 있었다.
+  
 단계
 1. 루팅으로 권한휙득
 2. magisk에서 adb shell 에 su 권한 부여

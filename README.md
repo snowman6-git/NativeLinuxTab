@@ -30,6 +30,7 @@ curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 |[Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/xun-t-oss)|Feb 4, 2020|기종별 샤오미 커널 오픈소스 현재 잘 못써서 2점|**|
 |[Boot Android from SdCard](https://linux-sunxi.org/Boot_Android_from_SdCard)|Dec 18, 2017|boot.img 부트레코드/파라미터 추출/복제/빌드|?|
 |[최소한의 구성으로 부팅 가능한 이미지 만들어보기](https://unknownpgr.com/posts/make-bootable-disk/index.html)|2023-12-05|부트이미지를 만들기 위한 최소요구|?|
+|[안드로이드 부팅로고 바꾸기](https://blog.naver.com/kangyunmoon/220731939104)|2016-6-9|커스텀을 더 하고 싶을때|*|
 
 #### 왜 Archlinux였는가?
 <li/> AUR, 최신패키지 지원 ex.(neovim 1.10.0)

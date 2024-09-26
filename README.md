@@ -66,3 +66,10 @@ export USER=root
 
 chroot $arch /bin/bash
 ```
+
+boot.img가 되기 위해 필요한것들
+1. 커널 이미지 image.gz/ Image
+2. RAMDISK initramfs.img
+3. root지정(SD카드의 경우)
+
+전부 archarm에 있으니 잘 조합해볼것

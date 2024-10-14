@@ -16,6 +16,11 @@ Real linux on the tablet nativly!
 ```
 curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 ```
+부족한 지식을 메꾸고자 개발보드를 통해 실험할 예정이다.
+
+rEFind세팅에 따르면 부팅에 필요한 이미지들은 아래와 같다.
+
+vmlinuz-linux, initramfs-?.img/fallback
 
 유용한 명령어들
 |명령어|용도|

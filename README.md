@@ -16,11 +16,22 @@ Real linux on the tablet nativly!
 ```
 curl -OL http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 ```
-부족한 지식을 메꾸고자 개발보드를 통해 실험할 예정이다.
+
+======================================================
+
+긴 시간이 지나고 아직도 문제를 해결하지 못했다, shell환경에서 rootfs 를 진입하는건 간단했지만,
+
+결국 아치리눅스로 부팅하지 못하면 의미가 없다. 그런 이유로 좀 더 부팅환경과 부트로더를 수정하기 편한 arm 디바이스를 먼저 실험해보는걸로 했다.
+
+대상: Khadas Vim4
 
 rEFind세팅에 따르면 부팅에 필요한 이미지들은 아래와 같다.
 
 vmlinuz-linux, initramfs-?.img/fallback
+
+하지만 archarm의 rootfs 에서는 vmlinuz가 없다. 이를 대체하는 Image.gz가 있음을 확인했다.
+
+======================================================
 
 유용한 명령어들
 |명령어|용도|

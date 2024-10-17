@@ -31,6 +31,20 @@ vmlinuz-linux, initramfs-?.img/fallback
 
 하지만 archarm의 rootfs 에서는 vmlinuz가 없다. 이를 대체하는 Image.gz가 있음을 확인했다.
 
+rootfs를 mnt에 마운트해두고 실행할것
+
+```
+export arch=/mnt
+mount -o bind /dev $arch/dev
+mount -t devpts devpts $arch/dev/pts
+mount -t proc none $arch/proc
+mount -t sysfs sysfs $arch/sys
+```
+chroot.sh라는 이름으로 pre에 있음
+
+chroot 진입법, 만약 도메인 관련 에러가 나면 os 전체를 교체할것, 이미 클라우드에 있는게 손상됐을수있음
+
+
 ======================================================
 
 유용한 명령어들

@@ -1,6 +1,10 @@
 ## Project NLT
 Real linux on the tablet nativly!
 
+*아래는 테스트 네이티브가 아니라 터미널로 실행함
+
+![image](https://github.com/user-attachments/assets/382b87fc-f41d-40f8-b37d-274584ca522b)
+
 준비물
 루팅/부트로더 언락 정도는 할 지식, 기초 리눅스 명령어, 굳이 힘든길로 가는 낭만☆
 
